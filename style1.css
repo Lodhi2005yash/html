@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+     font-family: 'Poppins', Helvetica, sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.form-box{
+    height: 290px;
+    width: 230px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: -2px 2px 15px rgba(0, 0, 0, 0.5) ;
+    border-radius: 5px;
+}
+.formfield {
+    margin-left: 20px;
+}
+.btnfield{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+   
+}
+.btnfield button{
+    background-color: blue;
+    
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.formfield input{
+    margin-top: 15px;
+    width: 90%;
+    height: 30px;
+    background-color: #fff;
+    border: 0.55px solid black;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.formfield p{
+    font-size: 0.55rem;
+}
+
+#para{
+    font-size: 0.55rem;
+    margin-top: 7px;
+}
